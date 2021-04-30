@@ -1,0 +1,30 @@
+/* Global Styles*/
+
+main {
+    position: absolute;
+    width: 1000px;
+    height: 800px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns: 1fr;
+}
+article {
+    grid-column-start: 1 / span 1;
+    font-family: 'Inconsolata', monospace;
+    background-color: ;
+}
+#blue  {
+width: 300px;
+height: 100px;
+background-color: #708aff;
+position: relative;
+animation-name: cornflower;
+animation-duration: 4s;
+animation-iteration-count: 2;
+animation-direction: alternate;  
+}
+
+@keyframes cornflower {
+0%   { left:0px; top:0px;}
+100%  {left:200px; top:0px;}
+}
